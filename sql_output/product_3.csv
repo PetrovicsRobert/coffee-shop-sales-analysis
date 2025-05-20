@@ -1,0 +1,81 @@
+product_id,product_type,product_detail,avg_unit_price,total_units_sold
+PD-8,"Premium Beans","Civet Cat",45,260
+PD-81,Clothing,"I Need My Bean! T-shirt",27.89,221
+PD-9,"Organic Beans","Organic Decaf Blend",22.61,206
+PD-6,"Gourmet Beans",Ethiopia,21,218
+PD-4,"Espresso Beans","Primo Espresso Roast",20.45,150
+PD-7,"Premium Beans","Jamacian Coffee River",19.75,146
+PD-1,"Organic Beans","Brazilian - Organic",18,214
+PD-2,"House blend Beans","Our Old Time Diner Blend",18,183
+PD-5,"Gourmet Beans","Columbian Medium Roast",15,148
+PD-3,"Espresso Beans","Espresso Roast",14.75,169
+PD-83,Housewares,"I Need My Bean! Latte cup",14.33,315
+PD-21,"Drinking Chocolate","Chili Mayan",13.33,148
+PD-82,Housewares,"I Need My Bean! Diner mug",12.25,240
+PD-18,"Chai tea","Spicy Eye Opener Chai",10.95,122
+PD-10,"Green beans","Guatemalan Sustainably Grown",10,134
+PD-17,"Chai tea","Morning Sunrise Chai",9.5,168
+PD-15,"Green tea","Serenity Green Tea",9.25,159
+PD-13,"Black tea","English Breakfast",8.95,161
+PD-16,"Chai tea","Traditional Blend Chai",8.95,153
+PD-12,"Herbal tea",Peppermint,8.95,153
+PD-11,"Herbal tea","Lemon Grass",8.95,152
+PD-14,"Black tea","Earl Grey",8.95,142
+PD-20,"Organic Chocolate","Sustainably Grown Organic",7.6,221
+PD-19,"Drinking Chocolate","Dark chocolate",6.4,118
+PD-61,"Hot chocolate","Sustainably Grown Organic Lg",4.75,4453
+PD-78,Scone,"Scottish Cream Scone",4.51,1985
+PD-59,"Hot chocolate","Dark chocolate Lg",4.5,4668
+PD-39,"Barista Espresso","Latte Rg",4.25,4497
+PD-41,"Barista Espresso","Cappuccino Lg",4.25,4151
+PD-55,"Brewed Chai tea","Morning Sunrise Chai Lg",4,4346
+PD-71,Pastry,"Chocolate Croissant",3.76,3096
+PD-79,Scone,"Jumbo Savory Scone",3.76,2028
+PD-38,"Barista Espresso",Latte,3.75,4602
+PD-36,"Premium brewed coffee","Jamaican Coffee River Lg",3.75,4395
+PD-60,"Hot chocolate","Sustainably Grown Organic Rg",3.75,4329
+PD-40,"Barista Espresso",Cappuccino,3.75,4266
+PD-73,Pastry,"Almond Croissant",3.75,1911
+PD-75,Pastry,Croissant,3.51,1954
+PD-76,Biscotti,"Chocolate Chip Biscotti",3.51,1924
+PD-74,Biscotti,"Ginger Biscotti",3.51,1836
+PD-27,"Organic brewed coffee","Brazilian Lg",3.5,4317
+PD-33,"Gourmet brewed coffee","Ethiopia Lg",3.5,4227
+PD-58,"Hot chocolate","Dark chocolate Rg",3.5,4007
+PD-70,Scone,"Cranberry Scone",3.26,2092
+PD-69,Biscotti,"Hazelnut Biscotti",3.26,2028
+PD-72,Scone,"Ginger Scone",3.18,2540
+PD-57,"Brewed Chai tea","Spicy Eye Opener Chai Lg",3.1,4404
+PD-35,"Premium brewed coffee","Jamaican Coffee River Rg",3.1,4018
+PD-32,"Gourmet brewed coffee","Ethiopia Rg",3,4393
+PD-26,"Organic brewed coffee","Brazilian Rg",3,4385
+PD-45,"Brewed herbal tea","Peppermint Lg",3,4350
+PD-49,"Brewed Black tea","English Breakfast Lg",3,4309
+PD-51,"Brewed Black tea","Earl Grey Lg",3,4245
+PD-47,"Brewed Green tea","Serenity Green Tea Lg",3,4220
+PD-30,"Gourmet brewed coffee","Columbian Medium Roast Lg",3,4195
+PD-53,"Brewed Chai tea","Traditional Blend Chai Lg",3,4174
+PD-37,"Barista Espresso","Espresso shot",3,4165
+PD-43,"Brewed herbal tea","Lemon Grass Lg",3,4089
+PD-24,"Drip coffee","Our Old Time Diner Blend Lg",3,3997
+PD-77,Scone,"Oatmeal Scone",3,1820
+PD-87,"Barista Espresso","Ouro Brasileiro shot",2.7,3262
+PD-56,"Brewed Chai tea","Spicy Eye Opener Chai Rg",2.55,4171
+PD-50,"Brewed Black tea","Earl Grey Rg",2.5,4708
+PD-54,"Brewed Chai tea","Morning Sunrise Chai Rg",2.5,4643
+PD-44,"Brewed herbal tea","Peppermint Rg",2.5,4564
+PD-29,"Gourmet brewed coffee","Columbian Medium Roast Rg",2.5,4547
+PD-52,"Brewed Chai tea","Traditional Blend Chai Rg",2.5,4512
+PD-46,"Brewed Green tea","Serenity Green Tea Rg",2.5,4477
+PD-23,"Drip coffee","Our Old Time Diner Blend Rg",2.5,4410
+PD-42,"Brewed herbal tea","Lemon Grass Rg",2.5,4325
+PD-48,"Brewed Black tea","English Breakfast Rg",2.5,4200
+PD-34,"Premium brewed coffee","Jamaican Coffee River Sm",2.45,4018
+PD-31,"Gourmet brewed coffee","Ethiopia Sm",2.2,4433
+PD-25,"Organic brewed coffee","Brazilian Sm",2.2,4310
+PD-22,"Drip coffee","Our Old Time Diner Blend Sm",2,4484
+PD-28,"Gourmet brewed coffee","Columbian Medium Roast Sm",2,4178
+PD-65,"Sugar free syrup","Sugar Free Vanilla syrup",0.8,2905
+PD-84,"Regular syrup","Chocolate syrup",0.8,2658
+PD-63,"Regular syrup","Carmel syrup",0.8,2576
+PD-64,"Regular syrup","Hazelnut syrup",0.8,2372
