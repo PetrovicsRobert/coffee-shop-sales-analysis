@@ -32,7 +32,13 @@ ORDER BY dd.year, dd.month_number;
 ```
 ![Sales Performance](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/main/powerbi_charts/sales_1.png)
 
+#### Insight  
+Sales revenue and quantity show a consistent upward trend from January to June 2023, indicating growing demand.
 
+#### Recommendation  
+Continue investing in promotions and inventory to support this positive sales momentum.
+
+---
 
 **1.2. Which store generated the highest average revenue per transaction?**
 ```sql
@@ -48,6 +54,14 @@ ORDER BY avg_revenue_per_transaction DESC;
 ```
 
 ![Average Revenue Per Transaction by Store](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/sales_2.png)
+
+#### Insight  
+Lower Manhattan leads in average revenue per transaction despite fewer transactions.
+
+#### Recommendation  
+Focus upselling efforts and premium product placement in Lower Manhattan to maximize revenue.
+
+---
 
 **1.3. What is the average unit price and quantity sold per product category?**
 ```sql
@@ -71,6 +85,12 @@ ORDER BY avg_unite_price DESC, avg_quantity_per_transaction DESC;
 
 ![Average Unit Price and Quantity per Category](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/sales_3.png)
 
+#### Insight  
+Higher-priced items like Coffee Beans are bought in smaller quantities; lower-priced items like Tea and Flavours are bought more frequently.
+
+#### Recommendation  
+Promote bundles pairing high-priced and popular low-priced products to boost overall sales.
+
 ---
 
 ###  2. Customer Behaviour
@@ -86,6 +106,14 @@ ORDER BY total_transactions DESC;
 ```
 
 ![Busiest Hours by Transactions](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/customer_1.png)
+
+#### Insight  
+The peak transaction hours are between 7 AM and 11 AM, with 10 AM being the busiest hour.
+
+#### Recommendation  
+Optimize staffing and inventory availability during these peak morning hours to improve customer experience and reduce wait times.
+
+---
 
 **2.2. Do weekends or weekdays have higher average revenue per transaction?**
 ```sql
@@ -110,6 +138,14 @@ ORDER BY avg_revenue DESC;
 
 ![Average Revenue: Weekends vs Weekdays](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/customer_2.png)
 
+#### Insight  
+Weekends generate slightly higher average revenue per transaction compared to weekdays.
+
+#### Recommendation  
+Consider weekend promotions or special offers to capitalize on higher spending behavior.
+
+---
+
 **2.3. What is the average transaction revenue by hour of the day?**
 ```sql
 WITH cte_count AS (
@@ -128,6 +164,12 @@ ORDER BY avg_revenue DESC;
 ```
 
 ![Average Transaction Revenue by Hour](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/customer_3.png)
+
+#### Insight  
+The highest average transaction revenues occur during late evening (8 PM) and morning hours (6-11 AM).
+
+#### Recommendation  
+Explore targeted marketing campaigns during these high-value hours to maximize revenue per transaction.
 
 ---
 
@@ -165,6 +207,14 @@ LIMIT 10;
 
 ![Products with Highest Revenue](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/product_1_high.png)
 
+#### Insight  
+The highest revenues come from large-sized coffee and hot chocolate products, while smaller tea and chocolate products generate lower total revenue.
+
+#### Recommendation  
+Focus marketing and supply efforts on high-revenue large-sized products while exploring growth opportunities for smaller tea products.
+
+---
+
 **3.2. Which product categories contribute most to overall revenue?**
 ```sql
 SELECT
@@ -177,7 +227,16 @@ GROUP BY dp.product_category
 ORDER BY total_revenue DESC;
 ```
 
+
 ![Product Categories Revenue Contribution](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/product_2.png)
+
+#### Insight  
+Coffee and Tea together account for over 66% of total revenue, making them the dominant product categories.
+
+#### Recommendation  
+Prioritize product development, promotions, and inventory management for Coffee and Tea categories.
+
+---
 
 **3.3. Which products have the highest average unit price and are still frequently purchased?**
 ```sql
@@ -194,6 +253,12 @@ ORDER BY avg_unit_price DESC, total_units_sold DESC;
 ```
 
 ![High Average Unit Price and Frequent Purchases](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/product_3.png)
+
+#### Insight  
+Premium beans and specialty items have the highest unit prices and maintain steady sales volumes, indicating strong niche demand.
+
+#### Recommendation  
+Maintain premium pricing strategies on specialty products while exploring opportunities to increase unit sales through targeted campaigns.
 
 ---
 
@@ -222,6 +287,14 @@ LIMIT 1;
 
 ![Uneven Sales Distribution by Store and Day](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/operation_1.png)
 
+#### Insight
+Astoria has the most uneven sales distribution across days of the week, indicated by the highest weekly revenue standard deviation of 962.7.
+
+#### Recommendation
+Focus on stabilizing sales in Astoria by analyzing factors causing daily fluctuations and implementing targeted marketing or operational improvements.
+
+---
+
 **4.2. What are the peak sales hours per store location?**
 ```sql
 WITH sales_by_hour AS (
@@ -246,6 +319,14 @@ ORDER BY number_of_sold_items DESC;
 
 ![Peak Sales Hours per Store Location](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/operation_2.png)
 
+#### Insight
+All stores show peak sales at 10 AM, with Hell’s Kitchen having the highest number of items sold (9,873) during this hour.
+
+#### Recommendation
+Optimize staffing and inventory availability around the 10 AM peak to better meet customer demand.
+
+---
+
 **4.3. How does the number of items sold vary by hour and day?**
 ```sql
 SELECT
@@ -261,6 +342,12 @@ ORDER BY
 ```
 
 ![Number of Items Sold by Hour and Day](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/operation_3.png)
+
+#### Insight
+Number of items sold gradually rises from 6 AM, peaks at 10 AM, then declines throughout the day, with the lowest sales around 8 PM across all days.
+
+#### Recommendation
+Schedule staff breaks and inventory restocking during low sales hours, and consider promotions during slower afternoon and evening periods to boost sales.
 
 ---
 
@@ -281,6 +368,14 @@ LIMIT 10;
 ```
 
 ![Top Selling Products in Last 3 Months](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/marketing_1.png)
+
+#### Insight
+The top-selling products in the last 3 months include Dark Chocolate Lg, Latte, and Earl Grey Rg, with quantities sold near or above 2900 units each, generating significant revenue.
+
+#### Recommendation
+Focus marketing efforts and inventory management on these top sellers to maintain and increase sales, including bundling promotions or loyalty rewards for these products.
+
+---
 
 **5.2. Which products have low sales performance but show potential for increased demand if offered with discounts or promotions?**
 ```sql
@@ -316,6 +411,14 @@ ORDER BY qty_change DESC;
 
 ![Products with Low Sales but Potential](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/marketing_2.png)
 
+#### Insight
+Several products such as "I Need My Bean! Latte cup," "Civet Cat," and "I Need My Bean! Diner mug" have low sales volumes but show potential for growth if offered with discounts or promotions, evidenced by their relatively small but consistent sales and notable quantity changes in other related products.
+
+#### Recommendation
+Introduce targeted discount campaigns or promotional bundles for these low-performing products to boost awareness and trial, potentially increasing overall demand and expanding customer interest.
+
+---
+
 **5.3. Which time slots during the day show low sales volume but could be targeted with promotions to increase revenue and improve overall sales performance?**
 ```sql
 SELECT
@@ -331,3 +434,11 @@ GROUP BY time_slot
 ORDER BY total_qty ASC;
 ```
 ![Low Sales Time Slots for Promotion](https://raw.githubusercontent.com/PetrovicsRobert/coffee-shop-sales-analysis/refs/heads/main/powerbi_charts/marketing_3.png)
+
+#### Insight
+Sales volumes are lowest in the Evening time slot compared to Morning and Afternoon, with only 32,797 items sold generating approximately $105k in revenue.
+
+#### Recommendation
+Launch time-limited promotions or happy hour deals during the Evening to attract more customers, improve sales during slower periods, and balance daily revenue streams.
+
+---
